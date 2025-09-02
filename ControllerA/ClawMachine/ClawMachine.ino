@@ -12,6 +12,7 @@ void setup()
   init_joystick();
   init_cnc_shield_pin();
   enable_cnc_shield();
+  // TODO: disable cnc shield on start. only turn it on when a coin is detected and the game starts.
 }
 
 void loop()
